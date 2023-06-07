@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca47bb4a-1e3a-4490-9e80-37e2a8e9c652" name="Default Changelist" comment="Remove unused imports">
+      <change afterPath="$PROJECT_DIR$/processor/data/FinalSpineSegmentationWeights-epoch999999.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animation.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/CollectVertebralBodySegmentations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/InspectData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/Train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/transforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/Train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/transforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/waldo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/waldo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/waldo/finder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectors/waldo/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/AverageStateDicts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/CreateCroppedDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/Entrypoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/Evaluate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/EvaluateDiscs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/EvaluateSpine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/GenerateMetadataFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/GenerateScreenshotForAllScans.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/Interobserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TestMultichannel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TestMulticlassUnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TestSpine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TestSpineTemp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TestTotal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TestTotalHD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/Train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TrainAuxilaryNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TrainRibDetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TrainSpine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/TryNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/VerifyDataIntegrity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/experiments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/conda-requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/create_cropped_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/evaluate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/experiments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/interobserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/__main__.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/deeplearning.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/deeplearning/lasagne.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/ii.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/imagedb.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/interpolation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/io.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/metrics.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/nlst.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/resampling.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/utils.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/gpueue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/nonlinearities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/updates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/visualization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/pastalog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/patches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/visdom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/imagedb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/interpolation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/nlst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/resampling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/sync.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/test_twoway.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/test_unet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/Aug2019_NLST_CSI_XVERTSEG_VerSe2019-epoch999999-from160000-to169400.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/Jun2022_NLST_CSI_XVERTSEG_VerSe2019_SyntheticScoliosis_epoch999999-from125000-to150000.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/MIDL2020_GrayvalueAugmentationMR-epoch999998-from130000-to150000.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/MultitaskZukicAugmentation-epoch999999-from160000-to169400.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/RegressionLegL1_MR_UpNNN_84_SigmoidWeighting-epoch15000.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/RegressionLegL1_NLST_CSI_XVERTSEG_Up60_84_SigmoidWeighting-epoch99000.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/TPS-epoch999999-from60000-to63200.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/SegmentVertebrae.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/SegmentVertebrae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/conda-requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/data/snapshot.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/data/snapshot_ribdetector.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/SegmentVertebrae.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_gc_algorithm.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="9a5fa257-64d7-4e56-b04e-a806e4b0606b">
+    <option name="files">
+      <option value="SPIDER\test.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1wwQazn4GtHA7Ip37ZI4U4hWHSE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="Z:/experiments/spine_segmentation_t9185/SPIDER-template" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Z275151\Documents\GitHub\msk-spine-segmentation\processor\data" />
+      <recent name="C:\Users\Z275151\Documents\GitHub\msk-spine-segmentation\weights" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Z275151\Documents\GitHub\SPIDER-template\not_needed" />
+      <recent name="C:\Users\Z275151\Documents\GitHub\msk-spine-segmentation\processor\old_data" />
+      <recent name="C:\Users\Z275151\Documents\GitHub\msk-spine-segmentation\processor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.evaluation">
+    <configuration name="ChangeMaskDimensions" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://user@dlc-portia:32802/usr/local/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/ChangeMaskDimensions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Entrypoint" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="TrainSpine debug --dataset DevelopmentData --filters 64 --overwrite --demoevery 20 --snapshotevery 20" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EvaluateSpine" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$/devel" remote-root="/mnt/netcache/bodyct/experiments/spine_segmentation_t9185/code/devel" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="EvaluateSpine Final_experiment --dataset Final_dataset --subset testing --eval_orgres" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenerateScreenshotForAllScans" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/GenerateScreenshotForAllScans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Metadatafile" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://user@dlc-sycorax:32772/usr/local/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="GenerateMetadataFile RadboudUMC_MRI_NeuroScreening" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSpine" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="TestSpine SpineAllInOne_patch_64_192_07_50 --dataset RadboudUMC_MRI_complete --epoch 060910 --export_orgres --export_image --disable_cropping --subset t2_tse_sag" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTotalHD" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="TestTotalHD VertebraComplete --dataset DevelopmentData --epoch 100000 --export_orgres --export_image --disable_cropping --disc_weights_file /mnt/netcache/bodyct/experiments/spine_segmentation_t9185/experiments/DiscsAndSC46scans/weights/100000.pkl --export_trail" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TrainSpine" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="TrainSpine debug --dataset DevelopmentData --filters 50 --overwrite" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TryNetwork" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="TryNetwork" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://user@dlc-portia:32829/usr/local/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VerifyDataIntegrity" type="PythonConfigurationType" factoryName="Python">
+      <module name="msk-vertebra-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://user@dlc-lugia:32776/usr/local/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devel" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devel/Entrypoint.py" />
+      <option name="PARAMETERS" value="VerifyDataIntegrity RadboudUMC_MRI_LWKScreening_COMPLETE --expect-discs --expect-spinal-canal" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="msk-spine-segmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SPIDER" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SPIDER/evaluation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ChangeMaskDimensions" />
+      <item itemvalue="Python.Entrypoint" />
+      <item itemvalue="Python.EvaluateSpine" />
+      <item itemvalue="Python.GenerateScreenshotForAllScans" />
+      <item itemvalue="Python.Metadatafile" />
+      <item itemvalue="Python.TestSpine" />
+      <item itemvalue="Python.TestTotalHD" />
+      <item itemvalue="Python.TrainSpine" />
+      <item itemvalue="Python.TryNetwork" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.VerifyDataIntegrity" />
+      <item itemvalue="Python.evaluation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.evaluation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca47bb4a-1e3a-4490-9e80-37e2a8e9c652" name="Default Changelist" comment="" />
+      <created>1629367238413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629367238413</updated>
+      <workItem from="1629367240753" duration="3386000" />
+      <workItem from="1629795240572" duration="14000" />
+      <workItem from="1629965818062" duration="3579000" />
+      <workItem from="1630675290623" duration="20000" />
+      <workItem from="1632733205244" duration="628000" />
+      <workItem from="1634651025641" duration="1660000" />
+      <workItem from="1635320482330" duration="5646000" />
+      <workItem from="1635755086803" duration="17737000" />
+      <workItem from="1635945734224" duration="1223000" />
+      <workItem from="1636360913667" duration="28847000" />
+      <workItem from="1636618773249" duration="35191000" />
+      <workItem from="1637151430414" duration="14583000" />
+      <workItem from="1637574349507" duration="62215000" />
+      <workItem from="1638520803555" duration="21589000" />
+      <workItem from="1639127731885" duration="8969000" />
+      <workItem from="1639383853956" duration="81011000" />
+      <workItem from="1641204580643" duration="3210000" />
+      <workItem from="1641374314651" duration="11454000" />
+      <workItem from="1641808067798" duration="12787000" />
+      <workItem from="1641977997094" duration="13370000" />
+      <workItem from="1642078458733" duration="9078000" />
+      <workItem from="1643115246794" duration="12226000" />
+      <workItem from="1644238743936" duration="23283000" />
+      <workItem from="1645093421755" duration="1745000" />
+      <workItem from="1645777912683" duration="13565000" />
+      <workItem from="1646308180505" duration="9997000" />
+      <workItem from="1647434175275" duration="87000" />
+      <workItem from="1647519561923" duration="599000" />
+      <workItem from="1647593205982" duration="5396000" />
+      <workItem from="1648047428532" duration="232000" />
+      <workItem from="1648198362934" duration="7000" />
+      <workItem from="1648714002220" duration="4062000" />
+      <workItem from="1649423913428" duration="5430000" />
+      <workItem from="1650886900508" duration="1037000" />
+      <workItem from="1651561527976" duration="2056000" />
+      <workItem from="1651760103324" duration="28000" />
+      <workItem from="1655209807943" duration="1206000" />
+      <workItem from="1655295500755" duration="12000" />
+      <workItem from="1660053363176" duration="963000" />
+      <workItem from="1660297905538" duration="505000" />
+      <workItem from="1660302813864" duration="12629000" />
+      <workItem from="1661948252851" duration="1727000" />
+      <workItem from="1662365613343" duration="8000" />
+      <workItem from="1667900797331" duration="961000" />
+      <workItem from="1668086485316" duration="831000" />
+      <workItem from="1668677792324" duration="3220000" />
+      <workItem from="1669106756034" duration="11176000" />
+      <workItem from="1669802829810" duration="7394000" />
+      <workItem from="1670937045142" duration="5000" />
+      <workItem from="1671194608762" duration="64000" />
+      <workItem from="1673346017847" duration="6043000" />
+      <workItem from="1673426331903" duration="9861000" />
+      <workItem from="1674463868871" duration="14000" />
+      <workItem from="1674464584302" duration="5142000" />
+      <workItem from="1675160249728" duration="12322000" />
+      <workItem from="1675417320720" duration="19209000" />
+      <workItem from="1675678618061" duration="16258000" />
+      <workItem from="1675935546141" duration="20000" />
+      <workItem from="1676371094308" duration="3216000" />
+      <workItem from="1676538549747" duration="22195000" />
+      <workItem from="1677757921035" duration="2214000" />
+      <workItem from="1678278989709" duration="1513000" />
+      <workItem from="1678348844640" duration="3152000" />
+      <workItem from="1678437986661" duration="35189000" />
+      <workItem from="1679387584375" duration="1241000" />
+      <workItem from="1679660620861" duration="3000" />
+      <workItem from="1680084019250" duration="24850000" />
+      <workItem from="1681195883412" duration="4551000" />
+      <workItem from="1681977100027" duration="1930000" />
+      <workItem from="1682408864138" duration="27000" />
+      <workItem from="1682423482445" duration="3787000" />
+      <workItem from="1682944964408" duration="15566000" />
+      <workItem from="1683207393127" duration="11000" />
+      <workItem from="1683812606110" duration="778000" />
+      <workItem from="1685014140138" duration="72000" />
+    </task>
+    <task id="LOCAL-00001" summary="Remove comments">
+      <created>1629369069423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629369069423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove unused imports">
+      <created>1629369605718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629369605718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove comments" />
+    <MESSAGE value="Remove unused imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused imports" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1367" y="196" key="#Deployment" timestamp="1683019360049">
+      <screen x="-1920" y="17" width="1920" height="1040" />
+    </state>
+    <state x="-1367" y="179" key="#Deployment/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1682946349214" />
+    <state x="-1367" y="196" key="#Deployment/0.0.1536.824/-1920.17.1920.1040/-3840.17.1920.1040@-1920.17.1920.1040" timestamp="1683019360049" />
+    <state x="-1367" y="179" key="#Deployment/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680704820170" />
+    <state x="-3287" y="179" key="#Deployment/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1680617479822" />
+    <state x="-3287" y="196" key="#Deployment/0.0.1536.824/-3840.17.1920.1040/-1920.17.1920.1040@-3840.17.1920.1040" timestamp="1678698025354" />
+    <state x="442" y="142" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1675678907170" />
+    <state x="-1283" y="204" key="#Options" timestamp="1680704689163">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1283" y="204" key="#Options/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680704689163" />
+    <state x="-1251" y="111" key="#TestSpine" timestamp="1678103109039">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1251" y="111" key="#TestSpine/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1678103109039" />
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678103083117">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1678103083117" />
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1682945114980">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1682945114980" />
+    <state x="-3748" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog" timestamp="1675433952052">
+      <screen x="-3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-3748" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1675433952052" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1682946345939">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1682946345939" />
+    <state x="-1115" y="336" key="FileChooserDialogImpl/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680704740176" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1680875161035">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680875161035" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1680875161035">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680875161035" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1680875161035">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680875161033" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1680875161035">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680875161035" />
+    <state x="-1459" y="165" key="SettingsEditor" timestamp="1678103244248">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="165" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1678103244248" />
+    <state x="369" y="116" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1675678678243" />
+    <state x="-1503" y="-16" width="176" height="66" maximized="true" key="dock-window-1" timestamp="1678955198427">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1493" height="878" maximized="true" key="dock-window-1/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1675240952724" />
+    <state x="-3275" y="0" width="1371" height="782" maximized="true" key="dock-window-1/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1676561295221" />
+    <state x="-1503" y="-16" width="176" height="66" maximized="true" key="dock-window-1/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1678955198427" />
+    <state x="-1123" y="191" width="324" height="598" key="ftp.server.browser" timestamp="1678102988129">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1123" y="191" key="ftp.server.browser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1678102988129" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1680767457929">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680767457929" />
+    <state x="-3217" y="225" key="search.everywhere.popup/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1675418911992" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="states" />
+        <watch expression="pred_segm" />
+        <watch expression="scan.original_header" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$ChangeMaskDimensions.coverage" NAME="ChangeMaskDimensions Coverage Results" MODIFIED="1641987804581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$TrainSpine.coverage" NAME="TrainSpine Coverage Results" MODIFIED="1641556055321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$GenerateScreenshotForAllScans.coverage" NAME="GenerateScreenshotForAllScans Coverage Results" MODIFIED="1673427013998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$Entrypoint.coverage" NAME="Entrypoint Coverage Results" MODIFIED="1638796801820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$TestTotal.coverage" NAME="TestTotal Coverage Results" MODIFIED="1638433954124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$VerifyDataIntegrity.coverage" NAME="VerifyDataIntegrity Coverage Results" MODIFIED="1639733214061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$TestSpine.coverage" NAME="TestSpine Coverage Results" MODIFIED="1641980349811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$TryNetwork.coverage" NAME="TryNetwork Coverage Results" MODIFIED="1641478277286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$Test.coverage" NAME="Test Coverage Results" MODIFIED="1640006272951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$TestTotalHD.coverage" NAME="TestTotalHD Coverage Results" MODIFIED="1639665926937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_spine_segmentation$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1680532281324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SPIDER" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$Metadatafile.coverage" NAME="Metadatafile Coverage Results" MODIFIED="1637246085566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+    <SUITE FILE_PATH="coverage/msk_vertebra_segmentation$EvaluateSpine.coverage" NAME="EvaluateSpine Coverage Results" MODIFIED="1673537542082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/devel" />
+  </component>
+</project>
