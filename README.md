@@ -1,7 +1,7 @@
-#SPIDER Lumbar Spine Segmentation Challenge
+# SPIDER Lumbar Spine Segmentation Challenge
 Welcome to the SPIDER Lumbar Spine Segmentation Challenge Template Repository! This repository provides a template to help upload your lumbar spine segmentation algorithm to the Grand-Challenge platform. Follow the instructions below to customize and use this template effectively.
 
-##Getting Started
+## Getting Started
 To get started with the challenge, please follow the instructions below:
 
 - Clone the Repository

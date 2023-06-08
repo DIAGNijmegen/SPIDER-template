@@ -26,26 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca47bb4a-1e3a-4490-9e80-37e2a8e9c652" name="Default Changelist" comment="Remove unused imports">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/msk-spine-segmentation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_needed/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_needed/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_needed/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_needed/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/FinalSpineSegmentationWeights-epoch999999.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/SegmentVertebrae.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/SegmentSpine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/pipelines.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -468,7 +450,7 @@
       <workItem from="1683207393127" duration="11000" />
       <workItem from="1683812606110" duration="778000" />
       <workItem from="1685014140138" duration="72000" />
-      <workItem from="1686139368312" duration="6448000" />
+      <workItem from="1686139368312" duration="7065000" />
     </task>
     <task id="LOCAL-00001" summary="Remove comments">
       <created>1629369069423</created>
@@ -531,7 +513,6 @@
     <state x="-1367" y="179" key="#Deployment/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680704820170" />
     <state x="-3287" y="179" key="#Deployment/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1680617479822" />
     <state x="-3287" y="196" key="#Deployment/0.0.1536.824/-3840.17.1920.1040/-1920.17.1920.1040@-3840.17.1920.1040" timestamp="1678698025354" />
-    <state x="442" y="142" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1675678907170" />
     <state x="-1283" y="204" key="#Options" timestamp="1680704689163">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -544,14 +525,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1678103083117" />
-    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1682945114980">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="6364" y="259" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1686226740859">
+      <screen x="5760" y="0" width="1680" height="1010" />
     </state>
     <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1682945114980" />
-    <state x="-3748" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog" timestamp="1675433952052">
-      <screen x="-3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-3748" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1675433952052" />
+    <state x="6364" y="259" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/3840.0.1920.1040/5760.0.1680.1010@5760.0.1680.1010" timestamp="1686226740859" />
     <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1682946345939">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -577,12 +555,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="165" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1678103244248" />
-    <state x="369" y="116" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1675678678243" />
     <state x="-1503" y="-16" width="176" height="66" maximized="true" key="dock-window-1" timestamp="1678955198427">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1493" height="878" maximized="true" key="dock-window-1/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1675240952724" />
-    <state x="-3275" y="0" width="1371" height="782" maximized="true" key="dock-window-1/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1676561295221" />
     <state x="-1503" y="-16" width="176" height="66" maximized="true" key="dock-window-1/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1678955198427" />
     <state x="-1123" y="191" width="324" height="598" key="ftp.server.browser" timestamp="1678102988129">
       <screen x="-1920" y="0" width="1920" height="1040" />
@@ -592,7 +567,6 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1680767457929" />
-    <state x="-3217" y="225" key="search.everywhere.popup/0.0.1536.824/-3840.0.1920.1040/-1920.0.1920.1040@-3840.0.1920.1040" timestamp="1675418911992" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
