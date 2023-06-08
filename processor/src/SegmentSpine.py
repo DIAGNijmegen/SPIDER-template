@@ -6,8 +6,6 @@ from argparse import ArgumentParser
 import numpy as np
 
 from tiger.io import read_image, write_image
-
-from pipelines import SpineSegmentationPipeline
 import utils
 
 
@@ -28,12 +26,6 @@ parser.add_argument(
     help="Model that is used to process the data",
     default="up-ct-jun2022"
 )
-# parser.add_argument(
-#     "--sigma",
-#     help="Prefilter parameter (Gaussian smoothing)",
-#     type=float,
-#     default=0
-# )
 parser.add_argument(
     "--outdir",
     help="Directory path for generated output (vertebra mask, etc.)",
@@ -131,19 +123,10 @@ for scan in metadata:
         # Run vertebra segmentation pipeline on the image
         print("Detecting vertebrae...")
         clock = utils.Timer()
-        pipeline_args = {
-            "image_file": image_file,
-            "overlay_files": [overlay_file, extra_overlay_file]
-        }
 
         # implement your segmentation method here!
-        # the variables that are saved, and therefor should be named accordingly are total_segmentation, and original_header
-        #
-        # labels, total_segmentation, original_header = pipeline(**pipeline_args) # todo labels weg
         original_image, original_header = read_image(image_file)
-        total_segmentation = np.zeros_like(original_image)
-        total_segmentation_mask = original_image > 2000
-        total_segmentation[total_segmentation_mask] = 1
+        # the variables that are saved, and therefor should be named accordingly are total_segmentation, and original_header
 
         print("Total runtime: {:.1f} s".format(clock.elapsed()))
 

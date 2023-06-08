@@ -21,7 +21,7 @@ LABEL processor.gpu.memory=8G
 
 # Define entry point
 WORKDIR /app/src
-ENTRYPOINT ["python3", "SegmentVertebrae.py"]
+ENTRYPOINT ["python3", "SegmentSpine.py"]
 
 # ----------------------------------------------------------------------------------------------------
 
