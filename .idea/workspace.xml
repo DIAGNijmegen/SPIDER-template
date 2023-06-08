@@ -26,131 +26,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca47bb4a-1e3a-4490-9e80-37e2a8e9c652" name="Default Changelist" comment="Remove unused imports">
-      <change afterPath="$PROJECT_DIR$/processor/data/FinalSpineSegmentationWeights-epoch999999.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/msk-spine-segmentation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/not_needed/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animation.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/CollectVertebralBodySegmentations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/InspectData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/Train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/datasets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/landmark_detector/transforms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/Train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/datasets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/slice_selector/transforms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/waldo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/waldo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/waldo/finder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectors/waldo/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/AverageStateDicts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/CreateCroppedDataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/Entrypoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/Evaluate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/EvaluateDiscs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/EvaluateSpine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/GenerateMetadataFile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/GenerateScreenshotForAllScans.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/Interobserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TestMultichannel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TestMulticlassUnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TestSpine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TestSpineTemp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TestTotal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TestTotalHD.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/Train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TrainAuxilaryNetwork.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TrainRibDetector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TrainSpine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/TryNetwork.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/VerifyDataIntegrity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/datasets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/experiments.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devel/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/conda-requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/create_cropped_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/datasets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/evaluate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/experiments.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/interobserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/__main__.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/deeplearning.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/deeplearning/lasagne.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/ii.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/imagedb.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/interpolation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/io.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/metrics.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/nlst.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/resampling.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/docs/modules/utils.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/gpueue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/layers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/metrics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/nonlinearities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/updates.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/lasagne/visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/pastalog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/patches.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/deeplearning/visdom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/ii.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/imagedb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/interpolation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/io.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/metrics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/nlst.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/resampling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/qia/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/qiapython-2.17.0/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/sync.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/test_twoway.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/test_unet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/Aug2019_NLST_CSI_XVERTSEG_VerSe2019-epoch999999-from160000-to169400.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/Jun2022_NLST_CSI_XVERTSEG_VerSe2019_SyntheticScoliosis_epoch999999-from125000-to150000.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/MIDL2020_GrayvalueAugmentationMR-epoch999998-from130000-to150000.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/MultitaskZukicAugmentation-epoch999999-from160000-to169400.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/RegressionLegL1_MR_UpNNN_84_SigmoidWeighting-epoch15000.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/RegressionLegL1_NLST_CSI_XVERTSEG_Up60_84_SigmoidWeighting-epoch99000.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/data/TPS-epoch999999-from60000-to63200.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/SegmentVertebrae.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/SegmentVertebrae.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/networks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/conda-requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/data/snapshot.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/data/snapshot_ribdetector.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/SegmentVertebrae.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/networks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor_verse2019/src/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_gc_algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_needed/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_needed/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_needed/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_needed/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/data/FinalSpineSegmentationWeights-epoch999999.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/SegmentVertebrae.py" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/SegmentSpine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/networks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/pipelines.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -573,6 +468,7 @@
       <workItem from="1683207393127" duration="11000" />
       <workItem from="1683812606110" duration="778000" />
       <workItem from="1685014140138" duration="72000" />
+      <workItem from="1686139368312" duration="6448000" />
     </task>
     <task id="LOCAL-00001" summary="Remove comments">
       <created>1629369069423</created>
