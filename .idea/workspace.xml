@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca47bb4a-1e3a-4490-9e80-37e2a8e9c652" name="Default Changelist" comment="Remove unused imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -450,7 +449,7 @@
       <workItem from="1683207393127" duration="11000" />
       <workItem from="1683812606110" duration="778000" />
       <workItem from="1685014140138" duration="72000" />
-      <workItem from="1686139368312" duration="7065000" />
+      <workItem from="1686139368312" duration="8277000" />
     </task>
     <task id="LOCAL-00001" summary="Remove comments">
       <created>1629369069423</created>
