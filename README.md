@@ -9,7 +9,7 @@ Clone this repository to your local machine: https://github.com/DIAGNijmegen/SPI
 
 - Install Dependencies
 Make sure you have the required dependencies installed. This includes the TIGER library. 
-To install the latest version, open a command prompt an run: `pip install git+https://github.com/DIAGNijmegen/msk-tiger.git@stable`
+To install the latest version, open a command prompt an run: `pip install git+https://github.com/DIAGNijmegen/Tiger.git@stable`
 
 ## Implementing your code
 
